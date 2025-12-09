@@ -4,7 +4,7 @@ import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 
-const BACKEND_URL = "http://localhost:5000"; 
+const BACKEND_URL = "https://diet-faq-chat-app.onrender.com"; 
 
 const Chat = () => {
   const [user] = useAuthState(auth);
